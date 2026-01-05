@@ -347,19 +347,19 @@ header nav ul li:nth-child(4) a {
 
 .experience-card:nth-child(1){
     background: var(--linear-gradient),
-    url('assets/imgs/mandarina-web-bg.png');
+    url('assets/imgs/mandarina-web-bg.webp');
     background-position: center center;
 }
 
 .experience-card:nth-child(2){
     background: var(--linear-gradient),
-    url('assets/imgs/idm-sistemas-de-comunicaciones-bg.jpg');
+    url('assets/imgs/idm-sistemas-de-comunicaciones-bg.webp');
     background-position: top center;
 }
 
 .experience-card:nth-child(3){
     background: var(--linear-gradient),
-    url('assets/imgs/idm-sistemas-de-comunicaciones-bg-2.jpg');
+    url('assets/imgs/idm-sistemas-de-comunicaciones-bg-2.webp');
     background-position: center center;
 }
 
