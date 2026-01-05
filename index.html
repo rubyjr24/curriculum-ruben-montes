@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolios</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Solway:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Solway:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <label for="menu-button">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="35"
+                    height="35"
+                    fill="currentColor"
+                    class="list_icon"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                    />
+                </svg>
+            </label>
+
+            <input type="checkbox" name="" id="menu-button">
+
+            <ul class="menu">
+                <li><a href="#work-experience">Experiencia laboral</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#about-me">Sobre mí</a></li>
+                <li><a href="#contact" class="contact-button">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+
+        <section id="banner">
+            <div class="info">
+                <h1>Hola, soy&nbsp;<span class="name">Rubén</span></h1>
+                <h2>Desarrollador FullStack</h2>
+                <p>Construyo soluciones digitales simples, eficientes y seguras.</p>
+                <div class="container-info-buttons">
+                    <a href="curriculum.pdf" download>Descarga mi CV</a>
+                    <a class="contact-button" href="#contact">Contáctame</a>
+                </div>
+            </div>
+            <div class="container-avatar">
+                <img src="assets/imgs/avatar.png" alt="Imagen estilo cartoon del desarrollador">
+            </div>
+        </section>
+
+        
+        <section id="work-experience">
+            <div class="container-sized">
+                <h2>Experiencia</h2>
+                <h3>He trabajado en las siguientes compañias:</h3>
+                <div class="container-experience-cards">
+                    <a class="experience-card" href="https://mandarinawebs.com/" target="_blank">
+                        <h2>Mandarina Web</h2>
+                        <h3>Junior Wordpress Developer (Prácticas)</h3>
+                        <h3>May. 2023 - Jul. 2023</h3>
+                    </a>
+                    <a class="experience-card" href="https://www.idmsistemas.com/" target="_blank">
+                        <h2>IDM Sistemas de Comunicación</h2>
+                        <h3>Junior Back-end Developer (Prácticas)</h3>
+                        <h3>May. 2025 - Jul. 2025</h3>
+                    </a>
+                    <a class="experience-card" href="https://www.idmsistemas.com/" target="_blank">
+                        <h2>IDM Sistemas de Comunicación</h2>
+                        <h3>Junior Back-end Developer</h3>
+                        <h3>Oct. 2025 - Ahora</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Formación y habilidades</h2>
+            <div class="row container-sized">
+                <div class="academic-training">
+                    <ul>
+                        <li>
+                            <h3>2º DESARROLLO DE APLICACIONES WEB (CURSANDO, 2025-2026)</h3>
+                            <span>Realizando en IES Serpis (C. Serpis)</span>
+                        </li>
+                        <li>
+                            <h3>DESARROLLO DE APLICACIONES MULTIPLATAFORMA (2023-2025)</h3>
+                            <span>Realizado en IES Serpis (C. Serpis)</span>
+                        </li>
+                        <li>
+                            <h3>CICLO MEDIO EN SISTEMAS MICROINFORMÁTICOS Y REDES (2022 -2023)</h3>
+                            <span>Realizado en Esclavas de María (Av. Cid)</span>
+                        </li>
+                    </ul>
+                    <div>
+                        <audio controls preload="metadata">
+                            <source src="assets/audios/audio.m4a" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+                <div class="technologies">
+                    <img src="assets/imgs/icons/java.svg" alt="Icono del logo de Java">
+                    <img src="assets/imgs/icons/javascript.svg" alt="Icono del logo de JavaScript">
+                    <img src="assets/imgs/icons/python.svg" alt="Icono del logo de Python">
+                    <img src="assets/imgs/icons/typescript.svg" alt="Icono del logo de TypeScript">
+                    <img src="assets/imgs/icons/spring-boot.svg" alt="Icono del logo de Spring Boot">
+                    <img src="assets/imgs/icons/react.svg" alt="Icono del logo de React">
+                    <img src="assets/imgs/icons/angular.svg" alt="Icono del logo de Angular">
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="about-me">
+            <div class="container-sized">
+                <div class="container-info">
+                    <h2>Sobre mí</h2>
+                    <p>Soy un desarrollador Full Stack apasionado por crear soluciones digitales eficientes y
+                        escalables.
+                        Tengo experiencia trabajando con una amplia gama de tecnologías, incluyendo Java, JavaScript,
+                        Python, HTML y CSS, así como frameworks modernos como Angular, React y Spring.</p>
+                    <p>Me especializo en construir aplicaciones completas, desde el diseño de interfaces intuitivas
+                        hasta la
+                        implementación de lógicas de negocio robustas en el backend. Disfruto enfrentando desafíos
+                        complejos
+                        y transformando ideas en productos funcionales que aporten valor real.</p>
+                    <p>Siempre estoy aprendiendo nuevas herramientas y buenas prácticas para mantenerme al día con la
+                        evolución de la tecnología y entregar soluciones de calidad. Mi objetivo es contribuir a
+                        proyectos
+                        innovadores y colaborar en equipos donde el desarrollo creativo y eficiente sea la prioridad.
+                    </p>
+                </div>
+                <div class="container-img">
+                    <video src="assets/videos/video.mp4" controls></video>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contacto</h2>
+            <div class="container-sized">
+                <div class="info">
+                    <h3>¡Hablemos!</h3>
+                    <p>¿Buscas un desarrollador full stack comprometido? Me encantaría colaborar en tu proyecto.
+                        Contáctame.</p>
+                    <div class="container-info-icon">
+                        <img src="assets/imgs/icons/mail.svg" alt="Icono de correo electrónico">
+                        <div>
+                            <span class="key">Email</span>
+                            <span class="value">rubijunior2005@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="container-info-icon">
+                        <img src="assets/imgs/icons/phone.svg" alt="Icono de teléfono">
+                        <div>
+                            <span class="key">Teléfono</span>
+                            <span class="value">+34 666 696 122</span>
+                        </div>
+                    </div>
+                    <div class="container-info-icon">
+                        <img src="assets/imgs/icons/location.svg" alt="Icono de ubicación">
+                        <div>
+                            <span class="key">Ubicación</span>
+                            <span class="value">Valencia, España</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="#" class="form">
+                    <input type="text" id="name" name="name" placeholder="Nombre" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <textarea name="message" id="message" placeholder="Mensaje" required></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    
+    </main>
+    <footer>
+        <span>With &#x2665; by Rubén Montes Rodrigo</span>
+    </footer>
+
+</body>
+
+</html>
